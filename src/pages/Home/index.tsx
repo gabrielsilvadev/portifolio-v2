@@ -9,11 +9,7 @@ import { Experience } from "../../components/Experience";
 import empresa from "../../assets/img/logo-blue-128px.png";
 import { Education } from "../../components/Education";
 import ProjectList from "../../components/Projects";
-import martinsGestao from "../../assets/video/martins-gestao.mov";
-import blog from "../../assets/video/blog.mov";
-import portifolioMartins from "../../assets/video/portifolio-martins.mov";
-import portifolio from "../../assets/video/portifolio.mov";
-import {  FaTwitter, FaInstagram, FaLinkedin, FaBlog } from "react-icons/fa";
+import {   FaInstagram, FaLinkedin, FaBlog, FaGithub} from "react-icons/fa";
 
 const { Container, Section, Image, Title, Description, IconContainer, Icon, Card, SocialContainer, SocialIcon } = styles;
 
@@ -26,8 +22,9 @@ export default function Home() {
 
     const socialNetworks = [
         { name: 'Blog', link: 'https://ligai.netlify.app/', icon: <FaBlog size={20} /> },
+        { name: 'Blog', link: 'https://ligai.netlify.app/', icon: <FaBlog size={20} /> },
         { name: 'Instagram', link: 'https://www.instagram.com/gabriel.silva.mllo/', icon: <FaInstagram size={20} /> },
-        { name: 'LinkedIn', link: 'https://www.linkedin.com/in/gabriel-silva-48052916b/', icon: <FaLinkedin size={20} /> },
+        { name: 'GitHub', link: 'https://github.com/gabrielsilvadev', icon: <FaGithub size={20} /> },
     ];
 
     const projects = [
