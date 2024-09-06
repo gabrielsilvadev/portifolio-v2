@@ -1,0 +1,25 @@
+{
+    "image":"../",
+    "name": "gabriel",
+    "description": "text...",
+    "skill": [{
+        "image": "../",
+        "name": "react"
+    }],
+    "education":[{"name": "ifce", "description": "fdf"}],
+    "experiencias": [
+        {
+          "color": "green",
+          "children": "Create a services site 2015-09-01",
+        },
+        {
+          "color": "green",
+          "children": "Create a services site 2015-09-01",
+        },
+        {
+          "color": "gray",
+          "children": "(<><p>Solve initial network problems 1</p></>)"
+        }
+      ],
+    "projects": [{"name": "martins", "description": "teste", "gif": "../"}]
+}
