@@ -21,10 +21,10 @@ export default function Home() {
     });
 
     const socialNetworks = [
-        { name: 'Blog', link: 'https://ligai.netlify.app/', icon: <FaBlog size={20} /> },
+        { name: 'GitHub', link: 'https://github.com/gabrielsilvadev', icon: <FaGithub size={20} /> },
         { name: 'Blog', link: 'https://ligai.netlify.app/', icon: <FaBlog size={20} /> },
         { name: 'Instagram', link: 'https://www.instagram.com/gabriel.silva.mllo/', icon: <FaInstagram size={20} /> },
-        { name: 'GitHub', link: 'https://github.com/gabrielsilvadev', icon: <FaGithub size={20} /> },
+        { name: 'LinkedIn', link: 'https://www.linkedin.com/in/gabriel-silva-48052916b/', icon: <FaLinkedin size={20} /> },
     ];
 
     const projects = [
