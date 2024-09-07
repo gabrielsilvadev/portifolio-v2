@@ -9,7 +9,7 @@ import { Experience } from "../../components/Experience";
 import empresa from "../../assets/img/logo-blue-128px.png";
 import { Education } from "../../components/Education";
 import ProjectList from "../../components/Projects";
-import {   FaInstagram, FaLinkedin, FaBlog, FaGithub} from "react-icons/fa";
+import {   FaInstagram, FaLinkedin, FaBlog, FaGithub, FaWhatsapp} from "react-icons/fa";
 
 const { Container, Section, Image, Title, Description, IconContainer, Icon, Card, SocialContainer, SocialIcon } = styles;
 
@@ -22,6 +22,7 @@ export default function Home() {
 
     const socialNetworks = [
         { name: 'GitHub', link: 'https://github.com/gabrielsilvadev', icon: <FaGithub size={20} /> },
+        { name: 'Whatsapp', link: 'https://wa.me/5588993369546', icon: <FaWhatsapp size={20} /> },
         { name: 'Blog', link: 'https://ligai.netlify.app/', icon: <FaBlog size={20} /> },
         { name: 'Instagram', link: 'https://www.instagram.com/gabriel.silva.mllo/', icon: <FaInstagram size={20} /> },
         { name: 'LinkedIn', link: 'https://www.linkedin.com/in/gabriel-silva-48052916b/', icon: <FaLinkedin size={20} /> },
