@@ -44,7 +44,7 @@ export default function Home() {
             stacks: ["NodeJS", "React", "TypeScript", "SqlLite"]
         },
         {
-            video: 'https://youtu.be/vJKbNJTiVCo',
+            video: 'https://youtu.be/vJKbNJTiVC',
             title: 'Portifolio Martins Advogados',
             url: "https://github.com/gabrielsilvadev/portifolio-martins",
             description: 'O portfólio do escritório Martins, desenvolvido em React com TypeScript, tem como objetivo apresentar os serviços disponíveis aos clientes, além de destacar a equipe e o escritório. Dessa forma, os clientes se sentem mais à vontade para escolher a especialidade que desejam.',
